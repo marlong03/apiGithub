@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    color:black;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #272727;
+}
+/* main */
+.entrada{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.entrada__container--logo img{
+    width:250px;
+}
+.entrada__container--input{
+    max-width: 380px;
+    margin-top: 20px;
+}
+.btn-purpouse{
+    background-color: #732d8c !important;
+    color:white;
+}
+.btn-purpouse:hover{
+    color:#732d8c;
+    background-color: #b6b6b6 !important;
+    border:1px solid #732d8c;
+}
+.stadistDesign{
+    width: 100px;
+    border: 2px solid #be3aee;
+    border-radius: 5px;
+    margin:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+small{
+    padding-bottom:2px;
+    border-bottom:2px solid #be3aee;
+}
+
+.stadist{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card{
+    position: relative;
+    z-index: 10;
+}
+.card:hover{
+    animation:scalar .5s;
+    box-shadow: 0px 0px 10px #be3aee;
+   
+}
+
+@keyframes scalar{
+    0%{ 
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    
+
+}
